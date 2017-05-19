@@ -1,0 +1,27 @@
+{
+    "name": "yejune/php-class-generator",
+    "type": "library",
+    "description": "Php class generator",
+    "keywords": ["Php class generator"],
+    "homepage": "https://github.com/yejune/php-class-generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Perov",
+            "email": "alex@sb6.ru",
+            "homepage": "https://github.com/sb15/php-class-generator"
+        },
+        {
+            "name": "max",
+            "email": "k@yejune.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sb\\": "src"
+        }
+    }
+}
