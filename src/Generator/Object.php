@@ -153,6 +153,10 @@ class Object extends \Sb\Generator
             $setFieldMethod->addDescription($field->getDescription());
             $setFieldMethod->addContentLine('$this->'.$fieldName.' = $'.\Peanut\Text::lcfirstCamelize($fieldName).';');
 
+            $setFieldMethod->addContentLine('');
+            $setFieldMethod->addContentLine('return $this;');
+            $setFieldMethod->setReturn('$this');
+
             $this->addMethod($setFieldMethod);
 
             $getFieldMethod = new AbstractClassMethod($field->getGetterName());
