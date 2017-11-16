@@ -1,11 +1,11 @@
 <?php
 namespace Sb\Generator;
 
-use Sb\Generator\Object\Property as AbstractClassProperty;
-use Sb\Generator\Object\Method as AbstractClassMethod;
-use Sb\Generator\Object\Method\Param as AbstractMethodParam;
+use Sb\Generator\PhpClass\Property as AbstractClassProperty;
+use Sb\Generator\PhpClass\Method as AbstractClassMethod;
+use Sb\Generator\PhpClass\Method\Param as AbstractMethodParam;
 
-class Object extends \Sb\Generator
+class PhpClass extends \Sb\Generator
 {
     private $name;
     private $namespace;

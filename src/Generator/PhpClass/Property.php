@@ -1,7 +1,7 @@
 <?php
-namespace Sb\Generator\Object;
+namespace Sb\Generator\PhpClass;
 
-use Sb\Generator\Object as AbstractClass;
+use Sb\Generator\PhpClass as AbstractClass;
 
 class Property extends \Sb\Generator
 {

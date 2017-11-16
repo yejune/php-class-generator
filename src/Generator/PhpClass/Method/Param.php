@@ -1,5 +1,5 @@
 <?php
-namespace Sb\Generator\Object\Method;
+namespace Sb\Generator\PhpClass\Method;
 
 class Param extends \Sb\Generator
 {

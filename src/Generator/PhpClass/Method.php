@@ -1,8 +1,8 @@
 <?php
-namespace Sb\Generator\Object;
+namespace Sb\Generator\PhpClass;
 
-use Sb\Generator\Object as AbstractClass;
-use Sb\Generator\Object\Method\Param as AbstractClassMethodParam;
+use Sb\Generator\PhpClass as AbstractClass;
+use Sb\Generator\PhpClass\Method\Param as AbstractClassMethodParam;
 
 class Method extends \Sb\Generator
 {
